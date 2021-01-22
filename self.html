@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Edit Remove HTML Table Row</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/self/self.css">
+        
+       
+        
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="tab tab-1">
+                <table id="table" border="1">
+                    <tr>
+                        <th>Employee Name</th>
+                        <th>Employee Id</th>
+                        <th>Employee Des</th>
+                        <th>Employee Team</th>
+                    </tr>
+                   
+                    
+                </table>
+            </div>
+            <div class="tab tab-2">
+                Employee Name :<input type="text" name="empName" id="empName">
+                Employee Id :<input type="number" name="empId" id="empId">
+                Employee Des :<input type="text" name="empDes" id="empDes">
+                Employee Team :<input type="number" name="empTeam" id="empTeam">
+
+                
+                <button onclick="addTableRow();">Add</button>
+                <button onclick="editdRow();">Edit</button>
+                <button onclick="removedRow();">Remove</button>
+            </div>
+        </div>
+
+    </body>
+    <script src="/self/self1.js"></script>
+</html>
